@@ -19,7 +19,7 @@ I also performed data cleaning, handled null values, and used structured queries
 
 ### **Entity Relationship Diagram (ERD)**
 
-An ERD (Entity Relationship Diagram) is included to visually represent the database schema and table relationships.
+An ERD is included to visually represent the database schema and table relationships.
 
 
 ![ERD Scratch](https://github.com/ChamaKaushik/Amazon_Sales_Analysis--SQL_Project/blob/main/Erd.png)
@@ -727,12 +727,11 @@ END //
 
 DELIMITER ;
 ```
-
-
-**Testing Store Procedure**
+```SQL
+Testing Store Procedure**
 CALL add_sales(25006, 3, 4, 21630, 2, 30);
 CALL add_sales(25007, 3, 4, 21631, 3, 93);
-
+```
 ---
 
 ---

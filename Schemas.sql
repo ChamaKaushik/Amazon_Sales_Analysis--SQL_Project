@@ -6,11 +6,14 @@ use amazon_db ;
 
 -- 1. Category table 
 
-select count(*) from category ;
-select * from category ;
+CREATE TABLE category
+(
+  category_id	INT PRIMARY KEY,
+  category_name VARCHAR(20)
+);
 
-alter table category
-modify category_name varchar(20) ;
+select * from category ;
+select count(*) from category ;
 
 -- 2. Customers table 
 
@@ -70,21 +73,25 @@ create table payments
   payment_status varchar(20),
   CONSTRAINT payments_fk_orders foreign key(order_id) references orders (order_id) );
 
-select * from payments  ;
-select count(*) from payments  ;
+select * from payments ;
+select count(*) from payments ;
 
 -- 8. Shipping table
 
-create table shipping 
-( shipping_id int primary key, order_id int, shipping_date date, return_date date,
-  shipping_providers varchar(15), delivery_status varchar(15) );
-  
-select * from shipping  ;
+CREATE TABLE shipping
+(
+  shipping_id	INT PRIMARY KEY,
+  order_id	INT, -- FK
+  shipping_date DATE,	
+  return_date	 DATE,
+  shipping_providers	VARCHAR(15),
+  delivery_status VARCHAR(15),
+  CONSTRAINT shippings_fk_orders FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
+
+select * from shipping ;
 select count(*) from shipping ;
 
-alter table shipping 
-add CONSTRAINT shipping_fk_orders foreign key(order_id) references orders (order_id) ;
- 
 -- 9. Inventory table  
 
 create table inventory

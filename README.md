@@ -9,11 +9,13 @@
 
 ## **Project Overview**
 
-I have worked on analyzing a dataset of over 20,000 sales records from an Amazon-like e-commerce platform. This project involves extensive querying of customer behavior, product performance, and sales trends using PostgreSQL. Through this project, I have tackled various SQL problems, including revenue analysis, customer segmentation, and inventory management.
+I worked on analyzing a dataset of over 20,000 sales records from an Amazon-like e-commerce platform. This project focuses on exploring customer behavior, product performance, and sales trends using MySQL.
 
-The project also focuses on data cleaning, handling null values, and solving real-world business problems using structured queries.
+Throughout the project, I solved various real-world SQL problems such as revenue analysis, customer segmentation, inventory tracking, and business performance evaluation.
 
-An ERD diagram is included to visually represent the database schema and relationships between tables.
+I also performed data cleaning, handled null values, and used structured queries to address practical business scenarios.
+
+An ERD (Entity Relationship Diagram) is included to visually represent the database schema and table relationships.
 
 ---
 

@@ -24,6 +24,8 @@ An ERD (Entity Relationship Diagram) is included to visually represent the datab
 
 ![ERD Scratch](https://github.com/ChamaKaushik/Amazon_Sales_Analysis--SQL_Project/blob/main/Erd.png)
 
+---
+
 ## **Database Setup & Design**
 
 ### **Schema Structure**

@@ -15,6 +15,7 @@ Throughout the project, I solved various real-world SQL problems such as revenue
 
 I also performed data cleaning, handled null values, and used structured queries to address practical business scenarios.
 
+### **Entity Relationship Diagram (ERD)**
 An ERD (Entity Relationship Diagram) is included to visually represent the database schema and table relationships.
 
 ---
@@ -751,7 +752,3 @@ By completing this project, I have gained a deeper understanding of how SQL can 
 
 ---
 
-### **Entity Relationship Diagram (ERD)**
-![ERD](https://github.com/ChamaKaushik/Amazon_Sales_Analysis--SQL_Project/blob/main/Erd.png)
-
----

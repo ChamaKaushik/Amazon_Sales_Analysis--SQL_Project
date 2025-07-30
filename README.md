@@ -728,11 +728,10 @@ END //
 DELIMITER ;
 ```
 ```SQL
-Testing Store Procedure**
+Testing Store Procedure
 CALL add_sales(25006, 3, 4, 21630, 2, 30);
 CALL add_sales(25007, 3, 4, 21631, 3, 93);
 ```
----
 
 ---
 

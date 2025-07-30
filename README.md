@@ -1,7 +1,7 @@
 ---
 
 # **Amazon USA Sales Analysis Project**
-## “Solving real-world e-commerce problems with advanced SQL queries using MySQL” .
+
 
 ### **Difficulty Level: Advanced**
 

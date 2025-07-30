@@ -1,6 +1,7 @@
 ---
 
 # **Amazon USA Sales Analysis Project**
+“Solving real-world e-commerce problems with advanced SQL queries using PostgreSQL”
 
 ### **Difficulty Level: Advanced**
 
@@ -16,7 +17,7 @@ An ERD diagram is included to visually represent the database schema and relatio
 
 ---
 
-![ERD Scratch](https://github.com/najirh/amazon_usa_project5/blob/main/erd2.png)
+![ERD Scratch](https://github.com/ChamaKaushik/Amazon_Sales_Analysis--SQL_Project/blob/main/Erd.png)
 
 ## **Database Setup & Design**
 

@@ -1,7 +1,8 @@
+-- CREATE DATABSE
 create database amazon_db ;
 use amazon_db ;
 
--- CREATING TABLES
+-- CREATE TABLES
 
 -- 1. Category table 
 

@@ -13,12 +13,14 @@ I worked on analyzing a dataset of over 20,000 sales records from an Amazon-like
 
 Throughout the project, I solved various real-world SQL problems such as revenue analysis, customer segmentation, inventory tracking, and business performance evaluation.
 
-I also performed data cleaning, handled null values, and used structured queries to address practical business scenarios.
-
-### **Entity Relationship Diagram (ERD)**
-An ERD (Entity Relationship Diagram) is included to visually represent the database schema and table relationships.
+I also performed data cleaning, handled null values, and used structured queries to address practical business scenarios
 
 ---
+
+### **Entity Relationship Diagram (ERD)**
+
+An ERD (Entity Relationship Diagram) is included to visually represent the database schema and table relationships.
+
 
 ![ERD Scratch](https://github.com/ChamaKaushik/Amazon_Sales_Analysis--SQL_Project/blob/main/Erd.png)
 
